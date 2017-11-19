@@ -124,3 +124,15 @@ html {
   padding: 1rem 2rem;
   margin-bottom: 0.25rem;
 }
+
+/* Footer */
+#footer {
+  height: 5rem;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+#footer .container h6 {
+  color: white;
+}
