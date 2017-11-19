@@ -49,13 +49,17 @@ html {
   background-color: black;
   width: 20rem;
   padding: 2rem 3rem;
-  margin-top: 9rem;
+  position: relative;
+  top: 9rem;
 }
 
 #bannertext h3 {
   font-size: 1rem;
+  margin-bottom: 0.25rem;
 }
 
 #bannertext h1 {
   font-size: 2rem;
 }
+
+/*
