@@ -106,3 +106,21 @@ html {
   padding-bottom: 0.5rem;
   text-align: center;
 }
+
+/* Store Information */
+#information .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  width: 35%;
+  margin-bottom: 4rem;
+}
+
+.info h6 {
+  color: white;
+  background-color: black;
+  padding: 1rem 2rem;
+  margin-bottom: 0.25rem;
+}
