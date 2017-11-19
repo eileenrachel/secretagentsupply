@@ -62,4 +62,15 @@ html {
   font-size: 2rem;
 }
 
-/*
+/* Navigation Bar */
+#navbar {
+  background-color: firebrick;
+}
+
+#navbar .container nav {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
