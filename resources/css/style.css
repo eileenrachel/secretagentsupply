@@ -138,11 +138,14 @@ html {
 
 #footer .container h6 {
   color: white;
-  text-align: left;
 }
 
 /* Rules for Tablet Screen */
 @media only screen and (max-width:1024px) {
+  .container {
+    max-width: 100%;
+  }
+
   #bannertext h3 {
     font-size: 0.85rem;
   }
@@ -166,5 +169,59 @@ html {
 
   #glasses {
     display: none;
+  }
+}
+
+/* Rules for Phone Screen */
+@media only screen and (max-width:470px) {
+  .container {
+    max-width: 100%;
+  }
+
+  #banner {
+    height: 15rem;
+  }
+
+  #bannertext {
+    width: 100%;
+    padding: 1rem 2rem;
+    position: relative;
+    top: 10rem;
+  }
+
+  #bannertext h3 {
+    font-size: 0.77rem;
+  }
+
+  #bannertext h1 {
+    font-size: 1rem;
+  }
+
+  #products .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .item {
+    width: 90%;
+  }
+
+  #watch {
+    display: none;
+  }
+
+  #information .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .info {
+    width: 90%;
+    padding-bottom: 0.5rem;
+  }
+
+  #footer .container {
+    justify-content: center;
   }
 }
